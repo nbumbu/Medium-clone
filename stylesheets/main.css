@@ -63,7 +63,7 @@ body {
 
 /* line 3, ../sass/main.scss */
 .navigation {
-  width: 70%;
+  width: 55%;
   margin: auto;
   padding: 1.5rem;
   justify-content: flex-end;
@@ -101,7 +101,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: aliceblue;
+  background-color: white;
 }
 /* line 43, ../sass/main.scss */
 .ext-links .ext-links-wrapper {
@@ -110,7 +110,7 @@ body {
 }
 /* line 47, ../sass/main.scss */
 .ext-links .ext-links-wrapper .ext-link {
-  font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
   color: gray;
   font-weight: 400;
   font-size: 1.6rem;
@@ -124,7 +124,7 @@ body {
 
 /* line 64, ../sass/main.scss */
 .landing-page {
-  background-color: aliceblue;
+  background-color: white;
   max-width: 70vw;
   height: 2000px;
 }
@@ -250,37 +250,37 @@ body {
 .landing-page .reading-history .history-article {
   padding: 0;
 }
-/* line 197, ../sass/main.scss */
+/* line 196, ../sass/main.scss */
 .landing-page .reading-history .history-article .article-description {
   color: gray;
   font-size: 1.3rem;
   font-weight: 500;
 }
-/* line 205, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 .landing-page .reading-history .article-author .row {
   margin: 0;
   align-items: center;
 }
-/* line 210, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 .landing-page .reading-history .article-author .col-9,
 .landing-page .reading-history .article-author .col {
   padding: 0;
 }
-/* line 215, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 .landing-page .reading-history .article-author p {
   margin: 0;
   color: gray;
   font-size: 1.2rem;
   display: inline-block;
 }
-/* line 222, ../sass/main.scss */
+/* line 221, ../sass/main.scss */
 .landing-page .reading-history .article-author a {
   text-decoration-color: black;
   color: #78909c;
   font-size: 1.2rem;
   font-weight: 400;
 }
-/* line 230, ../sass/main.scss */
+/* line 229, ../sass/main.scss */
 .landing-page .reading-history .history-article-img,
 .landing-page .reading-history .history-article-img-2 {
   width: 100%;
@@ -288,46 +288,46 @@ body {
   background-position: center;
   background-size: cover;
 }
-/* line 238, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 .landing-page .reading-history .history-article-img {
   background-image: url("/img/article6.png");
 }
-/* line 242, ../sass/main.scss */
+/* line 241, ../sass/main.scss */
 .landing-page .reading-history .history-article-img-2 {
   background-image: url("/img/article-7.png");
 }
-/* line 247, ../sass/main.scss */
+/* line 246, ../sass/main.scss */
 .landing-page .net-section {
   background-color: #D7EFEE;
   align-items: flex-end;
 }
-/* line 252, ../sass/main.scss */
+/* line 251, ../sass/main.scss */
 .landing-page .net-section .head-img {
   height: 15rem;
 }
-/* line 256, ../sass/main.scss */
+/* line 255, ../sass/main.scss */
 .landing-page .net-section .head-title {
   padding: 2rem;
   width: 50%;
   height: fit-content;
 }
-/* line 263, ../sass/main.scss */
+/* line 262, ../sass/main.scss */
 .landing-page .partner-section {
   height: 20rem;
   padding: 5rem;
   background-color: #fafafa;
 }
-/* line 268, ../sass/main.scss */
+/* line 267, ../sass/main.scss */
 .landing-page .partner-section .partner-title {
   font-size: 1.6rem;
   width: 80%;
   padding-left: 2rem;
 }
-/* line 274, ../sass/main.scss */
+/* line 273, ../sass/main.scss */
 .landing-page .partner-section .partner-content {
   margin-left: 20%;
 }
-/* line 279, ../sass/main.scss */
+/* line 278, ../sass/main.scss */
 .landing-page .popular-title {
   margin: auto;
   padding-top: 2rem;
@@ -336,22 +336,22 @@ body {
   border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
 
-/* line 291, ../sass/main.scss */
+/* line 290, ../sass/main.scss */
 .article-author-section {
   margin-top: 1.5rem;
 }
-/* line 294, ../sass/main.scss */
+/* line 293, ../sass/main.scss */
 .article-author-section .row {
   margin: 0;
   align-items: center;
 }
-/* line 299, ../sass/main.scss */
+/* line 298, ../sass/main.scss */
 .article-author-section p {
   margin: 0;
   color: gray;
   font-size: 1.2rem;
 }
-/* line 305, ../sass/main.scss */
+/* line 304, ../sass/main.scss */
 .article-author-section a {
   text-decoration-color: black;
   color: #78909c;
@@ -359,31 +359,31 @@ body {
   font-weight: 400;
 }
 
-/* line 313, ../sass/main.scss */
+/* line 312, ../sass/main.scss */
 .mat-icon {
   margin-right: 1rem;
   color: gray;
   cursor: pointer;
 }
 
-/* line 319, ../sass/main.scss */
+/* line 318, ../sass/main.scss */
 .article-title {
   color: black;
   font-size: 2rem;
   font-weight: 1000;
 }
 
-/* line 326, ../sass/main.scss */
+/* line 325, ../sass/main.scss */
 .margin-bottom-small {
   margin-bottom: 2rem;
 }
 
-/* line 330, ../sass/main.scss */
+/* line 329, ../sass/main.scss */
 .margin-bottom-medium {
   margin-bottom: 4rem;
 }
 
-/* line 334, ../sass/main.scss */
+/* line 333, ../sass/main.scss */
 .margin-bottom-large {
   margin-bottom: 6rem;
 }

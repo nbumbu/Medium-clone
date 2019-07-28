@@ -1,7 +1,7 @@
 @import "base";
 
 .navigation {
-    width: 70%;
+    width: 55%;
     margin: auto;
     padding: 1.5rem;
     justify-content: flex-end;
@@ -38,14 +38,14 @@
     position: sticky; 
     top: 0;
     z-index: 100;
-    background-color: aliceblue;
+    background-color: white;
     
     .ext-links-wrapper {
         width: 55%;
         justify-content: space-between;
 
         .ext-link {
-            font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
             color: gray;
             font-weight: 400;
             font-size: 1.6rem;
@@ -62,7 +62,7 @@
 }
 
 .landing-page {
-    background-color: aliceblue;
+    background-color: white;
     max-width: 70vw;
     height: 2000px;
 
@@ -192,7 +192,6 @@
         .history-article {
             padding: 0;
             
-           
 
             .article-description {
                 color: gray;
